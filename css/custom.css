@@ -1,20 +1,49 @@
 body {
-  background-color: #d9d9d9;
+  background-color: #fff;
+  color: #000;
 }
-
+.header {
+  position:   fixed;
+  top:        0px;
+  width:      100%;
+}
 .top_img {
-  max-width:  300px;
+  max-width:  100%;
   width:      100%;
   height:     auto;
 }
+.header_img {
+  max-width:  500px;
+  width:      100%;
+  height:     auto;
+  padding-top:50px;
+}
+.container > div > p {
+  font-size:  1.3em;
+}
+.container > div > i > a {
+  cursor:     pointer;
+}
+hr {
+  border-top: 1px solid #000;
+}
+.modal-dialog {
+  background-color: #fff;
+  border:     1px solid;
+  border-radius:  10px;
+  width:      100%;
+  max-width:  700px;
+}
+.modal_img {
+  max-width:  100%;
+}
 .bottom_img {
-  max-width:  300px;
+  max-width:  100%;
   width:      100%;
   height:     auto;
   float:      right;
 }
 .footer {
-  position:   fixed;
   bottom:     0px;
   width:      100%;
 }
