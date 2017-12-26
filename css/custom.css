@@ -24,9 +24,16 @@ body {
 }
 .container > div > i > a {
   cursor:     pointer;
+  color:      #5e9b42;
+}
+a,
+a:hover,
+a:focus {
+  cursor:     pointer;
+  color:      #5e9b42;
 }
 h1 {
-  color: #5e9b42;
+  color:      #5e9b42;
 }
 hr {
   border-top: 1px solid #404041;
